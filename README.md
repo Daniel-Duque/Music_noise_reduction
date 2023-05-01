@@ -1,8 +1,21 @@
 # Music_noise_reduction
 
+## Contents
+* [Authors]
+* [Introduction]
+* [Dataset Description]
+* [Solution Description]
+* [Requirements]
+* [Instalation] 
+
+## Authors
+Daniel Duque
+Sebastián Pineda
+
+## Introduction
 So this is a library/example to denoise music... this readme will get better eventually.
 
-
+## Dataset Description
 
 
 
