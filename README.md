@@ -9,14 +9,29 @@
 * [Instalation] 
 
 ## Authors
-Daniel Duque
-Sebastián Pineda
+| Organization   | Name | Email | 
+|----------|-------------|-------------|
+| PUJ-Bogota | Sebastián Pineda| juanspineda@javeriana.edu.co|
+| PUJ-Bogota  |  Daniel Duque | daniel_duque@javeriana.edu.co |
 
 ## Introduction
 So this is a library/example to denoise music... this readme will get better eventually.
 
 ## Dataset Description
 
+Here will be the descrition of the data used
+
+## Solution Description 
+
+Here will be the models and how the problem was solved
+
+## Requirements
+
+Basic reference of which libraries and versions were used
+
+## Instalation 
+
+How to make the solution run and which precautions are needed
 
 
 
