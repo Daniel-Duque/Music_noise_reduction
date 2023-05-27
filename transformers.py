@@ -210,6 +210,6 @@ history_min_trans = mini_trans.fit(train_gen,
                     batch_size=32
                     )
 
-mini_trans.save(r"/saved/mini_trans")
+mini_trans.save(r"mini_trans.hdf5")
 
 
