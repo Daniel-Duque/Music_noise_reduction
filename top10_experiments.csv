@@ -1,0 +1,11 @@
+,experiment_name,run_id,min
+78,dnn4vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,f58987e01c624d48ba905c8aa4397406,1033604.0
+76,dnn4vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,5b4215c79e9b4c049c37477bc6affad7,1046479.9375
+77,dnn4vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,aca9a94dc968481598e70225118bbfd9,1088231.5
+74,dnn4_stacked2vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,ff8bb6a7956d464ca77cf32be7adf88b,1272539.125
+32,cnn1vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,7de0e722f0b94c8fa6eed03d15f84aae,1435283.125
+33,cnn1vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,ba1cfe393b3f42d1b361c3a226669416,1447092.125
+70,dnn3vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,d2d8ae3f33364a4bba6f36f537c523b0,1898245.875
+68,dnn3vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,09a558c7b4c04754a74b49e54793bcee,1901299.0
+69,dnn3vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,68d38fd565774adb88a0eabd3fb947fe,1906601.375
+21,VGG16 vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 20,933e0af5cbef455fa447f2b0af049c17,2053981.625

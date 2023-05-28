@@ -1,0 +1,25 @@
+,experiment_name,min,max,mean
+39,dnn4vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,1033604.0,1088231.5,1056105.1458333333
+37,dnn4_stacked2vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,1272539.125,1272539.125,1272539.125
+14,cnn1vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,1435283.125,1447092.125,1441187.625
+35,dnn3vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,1898245.875,1906601.375,1902048.75
+8,VGG16 vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 20,2053981.625,2736507.0,2600000.175
+25,dnn1vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,2172982.5,2180775.5,2176879.0
+33,dnn3_stacked2vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,2200215.25,2200215.25,2200215.25
+32,dnn2vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,2264374.5,2266925.25,2265649.875
+31,dnn2vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,2266787.0,2267070.0,2266928.5
+45,naivevector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,2303524.75,2304272.5,2303898.625
+36,dnn3vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,2431365.5,2442846.5,2436098.6666666665
+40,dnn4vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,2459603.5,2508397.75,2483142.1666666665
+38,dnn4_stacked2vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,2459763.25,2459763.25,2459763.25
+46,naivevector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,2508106.5,2508159.0,2508132.75
+26,dnn1vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,2529752.5,2532724.0,2531238.25
+34,dnn3_stacked2vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,2678950.0,2678950.0,2678950.0
+20,cnn2vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 100,2736488.75,2736488.75,2736488.75
+13,cnn1vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,2736489.0,2736492.5,2736490.75
+19,cnn2vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 100,2736489.5,2736489.5,2736489.5
+0,MobileNet vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 20,2736503.5,2736505.25,2736504.375
+1,MobileNet vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 20,2736503.75,2736505.25,2736504.5625
+7,VGG16 vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 20,2736504.5,2736505.25,2736504.75
+2,MobileNet_2 vector_min_size 2500 n_samples 2000 dropout 0.1 epochs 20,2736505.0,2736505.25,2736505.125
+3,MobileNet_2 vector_min_size 2500 n_samples 2000 dropout 0.5 epochs 20,2736505.75,2736508.25,2736507.0
