@@ -177,12 +177,13 @@ class TransformerBlock(layers.Layer):
         })
         return config
 
-    
-clean_specs,clean_s_rates=create_spec_from_dir(r'data\musicnet\musicnet\train_data',24000)
-noisy_specs,noisy_s_rates=create_spec_from_dir(r'data\musicnet\musicnet\train_data',24000)
+print("Reading wavs")
+clean_specs,clean_s_rates=create_spec_from_dir(r'wavs\clean',2000)
+noisy_specs,noisy_s_rates=create_spec_from_dir(r'wavs\noisy',2000)
 s_clean_specs,s_noisy_specs=standardize_specs(clean_specs,noisy_specs)    
 
-train_gen = DataGenerator(s_clean_specs, s_clean_specs, 32)
+print("creting data generator")
+train_gen = DataGenerator(s_noisy_specs, s_clean_specs, 32)
 
 
 #we build an attention model
@@ -205,11 +206,12 @@ mini_trans.add(layers.Reshape(img_shape))
 mini_trans.compile(optimizer='adamax', loss='mse')
 mini_trans.summary()
 
+print("training start")
 history_min_trans = mini_trans.fit(train_gen,
                     epochs=3,
                     batch_size=32
                     )
 
 mini_trans.save(r"mini_trans.hdf5")
-
+print("model saved")
 
